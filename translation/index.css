@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(./fonts/Poppins/Poppins-SemiBoldItalic.ttf);
+}
+
+body {
+  font-family: poppins;
+}
+
+.text {
+  margin: 50px;
+  padding: 15px;
+  line-height: 31px;
+  font-size: 25px;
+  background-color: hotpink;
+  color: palegreen;
+
+}
+
+/*.text:hover {
+  border-radius: 80px;
+}*/
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.box {
+  margin: 50px;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  background-color: cadetblue;
+  transition: all 2.3s;
+  transition-delay: 1s;
+}
+
+.box:hover {
+  transform: perspective(40px) translate3d(0px, -30px, -10px);
+  width: 450px;
+  background-color: gold;
+  border-radius: 80px;
+}
+
+.boxes {
+  color: wheat;
+  font-size: 24px;
+  padding: 50px;
+  margin: 50px;
+  width: 250px;
+  height: 200px;
+  background-color: cadetblue;
+  transition: all 2.3s;
+}
+
+.box-1:hover {
+  width: 450px;
+  transition-timing-function: ease;
+  border-radius: 80px;
+  background-color: orchid;
+}
+
+.box-2:hover {
+  width: 450px;
+  transition-timing-function: linear;
+  border-radius: 80px;
+  background-color: lawngreen;
+}
+
+.box-3:hover {
+  width: 450px;
+  transition-timing-function: ease-in;
+  border-radius: 80px;
+  background-color: sandybrown;
+}
+
+.box-4:hover {
+  width: 450px;
+  transition-timing-function: ease-out;
+  border-radius: 80px;
+  background-color: darkblue;
+}
+
+.box-5:hover {
+  width: 450px;
+  transition-timing-function: ease-in-out;
+  border-radius: 80px;
+  color: khaki;
+  background-color: fuchsia;
+}
